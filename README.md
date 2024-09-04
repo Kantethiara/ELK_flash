@@ -1,7 +1,3 @@
-Voici un modèle de README pour votre projet, qui explique l'approche ELK de base, la raison pour laquelle Logstash a été remplacé par un script Python, ainsi qu'un lien vers le tableau de bord. Le README inclut également des instructions pour exécuter l'application avec Docker et une brève description de chaque composant.
-
----
-
 # Projet ELK pour la Gestion des Offres d'Emploi
 
 ## Description
