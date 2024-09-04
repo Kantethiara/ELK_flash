@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Offres d'Emplois</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Moteur de Recherche dans les Offres d'Emploi</h1>
+    <form action="{{ url_for('search') }}" method="POST">
+        <input type="text" name="query" placeholder="Entrez un terme de recherche">
+        <button type="submit">Rechercher</button>
+    </form>
+
+    <h1>Welcome to the Dashboard</h1>
+    <iframe src="http://localhost:5601/app/dashboards#/view/4ae46299-b8c1-4589-a964-535f55145b32?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))" height="600" width="800"></iframe>    
+</body>
+</html>
